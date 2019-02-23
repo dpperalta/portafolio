@@ -53,7 +53,7 @@ export class ProductosService {
   }
 
   private filtrarProductos( termino: string ){
-    console.log( this.productos );
+    //console.log( this.productos );
     this.productoFiltrado = [];
     
     termino = termino.toLocaleLowerCase();
